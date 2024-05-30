@@ -1,16 +1,13 @@
-# Biological and Non-Biological neuroimaging confounding effects removal
+# neurocombat modified for:
 # neurocombat_pyClasse
 neurocombat function (Fortin, J. P. et al.) implementation in a python classe in order to be compatible with python fit/transform methods and sklearn Pipelines.
 
 # original combat function written in python
 neurocombat function used in this repository is originally written by Nick Cullen, extended and currently maintained by JP Fortin and can be found in: https://github.com/Jfortin1/neuroCombat
 
-# modifications to neurocombat function
+# modifications to neurocombat function:
 
 # neurocombat integration in a python classe:
-
-# linear regression classe to remove biological-related confounding effects
-
 
 # References for development of this work:
 - Original ComBat model: Johnson, W. E., Li, C. & Rabinovic, A. Adjusting batch effects in microarray expression data using empirical Bayes methods. Biostatistics 8, 118–127 (2007).
