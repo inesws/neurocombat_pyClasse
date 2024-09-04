@@ -101,11 +101,6 @@ class ComBatHarmonization(BaseEstimator, TransformerMixin):
   """
   Multi-site Harmonization compatible with sklearn Pipelines
 
-  Limitations:
-  -Not compatible with sklearn Random/Grid search
-  -covariates are being changed in place and it only works with method fit_transform()
-  not fit() method
-
 
   """
   def __init__(self, cv_method, ref_batch, regression_fit, feat_detail, feat_of_no_interest):
